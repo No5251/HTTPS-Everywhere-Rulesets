@@ -1,0 +1,7 @@
+<ruleset name="genoakademie.de">
+  <target host="*.genoakademie.de" />
+  <target host="genoakademie.de" />
+
+  <rule from="^http://genoakademie\.de/" to="https://www.genoakademie.de/"/>
+  <rule from="^http://([^/:@\.]+)\.genoakademie\.de/" to="https://$1.genoakademie.de/"/>
+</ruleset>
