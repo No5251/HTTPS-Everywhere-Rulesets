@@ -1,0 +1,7 @@
+<ruleset name="Hajek Museum" default_off="expired certificate">
+  <target host="*.hajekmuseum.de" />
+  <target host="hajekmuseum.de" />
+
+  <rule from="^http://hajekmuseum\.de/" to="https://www.hajekmuseum.de/"/>
+  <rule from="^http://([^/:@\.]+)\.hajekmuseum\.de/" to="https://$1.hajekmuseum.de/"/>
+</ruleset>

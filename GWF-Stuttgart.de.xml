@@ -1,4 +1,4 @@
-<ruleset name="gwf-stuttgart.de">
+<ruleset name="GWF Stuttgart">
   <target host="*.gwf-stuttgart.de" />
   <target host="gwf-stuttgart.de" />
 

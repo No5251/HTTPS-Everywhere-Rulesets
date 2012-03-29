@@ -1,0 +1,7 @@
+<ruleset name="LinuxTag">
+  <target host="linuxtag.org"/>
+  <target host="www.linuxtag.org"/>
+
+  <rule from="^http://(www\.)?linuxtag\.org/" to="https://www.linuxtag.org/"/>
+</ruleset>
+

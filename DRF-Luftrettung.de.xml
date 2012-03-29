@@ -1,4 +1,4 @@
-<ruleset name="drf-luftrettung.de">
+<ruleset name="DRF Luftrettung">
   <target host="*.drf-luftrettung.de" />
   <target host="drf-luftrettung.de" />
 

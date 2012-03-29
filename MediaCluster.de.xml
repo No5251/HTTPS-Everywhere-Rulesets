@@ -1,4 +1,4 @@
-<ruleset name="mediacluster.de">
+<ruleset name="MediaCluster">
   <target host="*.mediacluster.de" />
   <target host="mediacluster.de" />
 

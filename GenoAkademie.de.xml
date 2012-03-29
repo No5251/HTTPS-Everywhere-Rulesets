@@ -1,4 +1,4 @@
-<ruleset name="genoakademie.de">
+<ruleset name="GenoAkademie">
   <target host="*.genoakademie.de" />
   <target host="genoakademie.de" />
 

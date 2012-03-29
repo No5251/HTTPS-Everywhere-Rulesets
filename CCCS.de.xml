@@ -1,4 +1,4 @@
-<ruleset name="cccs.de" default_off="expired certificate">
+<ruleset name="CCC Stuttgart" default_off="expired certificate">
   <target host="*.cccs.de" />
   <target host="cccs.de" />
 
