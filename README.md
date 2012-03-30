@@ -5,7 +5,7 @@ Some rulesets for the browser plugin ["HTTPS Everywhere"](https://www.eff.org/ht
 ## Installation
 
 ### Firefox
-Copy the XML files to \<profile folder\>/extensions/https-everywhere@eff.org/chrome/content/rules
+Copy the XML files to \<profile folder\>HTTPSEverywhereUserRules
 
 Enter about:support in the location bar, hit Enter and click "Profile Directory" to get the path of your profile folder.
 
