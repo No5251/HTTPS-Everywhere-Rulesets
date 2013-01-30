@@ -1,0 +1,7 @@
+<ruleset name="QYRA">
+  <target host="*.qyra.de" />
+  <target host="qyra.de" />
+
+  <rule from="^http://qyra\.de/" to="https://www.qyra.de/"/>
+  <rule from="^http://([^/:@\.]+)\.qyra\.de/" to="https://$1.qyra.de/"/>
+</ruleset>

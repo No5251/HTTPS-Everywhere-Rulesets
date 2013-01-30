@@ -1,0 +1,7 @@
+<ruleset name="GenoHotel Baunatal">
+  <target host="*.genohotel-baunatal.de" />
+  <target host="genohotel-baunatal.de" />
+
+  <rule from="^http://genohotel-baunatal\.de/" to="https://www.genohotel-baunatal.de/"/>
+  <rule from="^http://([^/:@\.]+)\.genohotel-baunatal\.de/" to="https://$1.genohotel-baunatal.de/"/>
+</ruleset>
