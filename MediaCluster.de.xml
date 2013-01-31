@@ -1,8 +1,11 @@
 <ruleset name="MediaCluster">
   <target host="*.mediacluster.de" />
   <target host="mediacluster.de" />
+  <target host="devserver" />
+
+  <exclusion pattern="^http://(preview*?)\.mediacluster\.de/"/>
 
   <rule from="^http://mediacluster\.de/" to="https://www.mediacluster.de/"/>
-  <rule from="^http://intern.mediacluster\.de/" to="https://intern.mediacluster.de/"/>
+  <rule from="^http://devserver/git" to="https://intern.mediacluster.de/git/"/>
   <rule from="^http://([^/:@\.]+)\.mediacluster\.de/" to="https://$1.mediacluster.de/"/>
 </ruleset>
