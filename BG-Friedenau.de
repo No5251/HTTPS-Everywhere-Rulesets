@@ -1,0 +1,7 @@
+<ruleset name="BG Friedenau">
+  <target host="*.bg-friedenau.de" />
+  <target host="bg-friedenau.de" />
+
+  <rule from="^http://bg-friedenau\.de/" to="https://www.bg-friedenau.de/"/>
+  <rule from="^http://([^/:@\.]+)\.bg-friedenau\.de/" to="https://$1.bg-friedenau.de/"/>
+</ruleset>
