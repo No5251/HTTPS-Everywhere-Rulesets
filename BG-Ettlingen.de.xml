@@ -1,0 +1,7 @@
+<ruleset name="BG Ettlingen">
+  <target host="*.bg-ettlingen.de" />
+  <target host="bg-ettlingen.de" />
+
+  <rule from="^http://bg-ettlingen\.de/" to="https://www.bg-ettlingen.de/"/>
+  <rule from="^http://([^/:@\.]+)\.bg-ettlingen\.de/" to="https://$1.bg-ettlingen.de/"/>
+</ruleset>
