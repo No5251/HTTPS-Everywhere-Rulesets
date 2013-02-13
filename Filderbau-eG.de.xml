@@ -1,0 +1,7 @@
+<ruleset name="Filderbau eG">
+  <target host="*.filderbau-eg.de" />
+  <target host="filderbau-eg.de" />
+
+  <rule from="^http://filderbau-eg\.de/" to="https://www.filderbau-eg.de/"/>
+  <rule from="^http://([^/:@\.]+)\.filderbau-eg\.de/" to="https://$1.filderbau-eg.de/"/>
+</ruleset>
