@@ -1,0 +1,7 @@
+<ruleset name="Bauhuette Heidelberg">
+  <target host="*.bauhuette-heidelberg.de" />
+  <target host="bauhuette-heidelberg.de" />
+
+  <rule from="^http://bauhuette-heidelberg\.de/" to="https://www.bauhuette-heidelberg.de/"/>
+  <rule from="^http://([^/:@\.]+)\.bauhuette-heidelberg\.de/" to="https://$1.bauhuette-heidelberg.de/"/>
+</ruleset>
