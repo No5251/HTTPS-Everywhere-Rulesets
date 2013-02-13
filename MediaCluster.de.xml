@@ -3,7 +3,7 @@
   <target host="mediacluster.de" />
   <target host="devserver" />
 
-  <exclusion pattern="^http://(preview*?)\.mediacluster\.de/"/>
+  <exclusion pattern="^http://(preview|server)(\d{1,2})?\.mediacluster\.de/"/>
 
   <rule from="^http://mediacluster\.de/" to="https://www.mediacluster.de/"/>
   <rule from="^http://devserver/git" to="https://intern.mediacluster.de/git/"/>
