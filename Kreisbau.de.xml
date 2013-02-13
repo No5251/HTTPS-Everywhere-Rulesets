@@ -1,0 +1,7 @@
+<ruleset name="Kreisbaugesellschaft Heidenheim GmbH">
+  <target host="*.kreisbau.de" />
+  <target host="kreisbau.de" />
+
+  <rule from="^http://kreisbau\.de/" to="https://www.kreisbau.de/"/>
+  <rule from="^http://([^/:@\.]+)\.kreisbau\.de/" to="https://$1.kreisbau.de/"/>
+</ruleset>
