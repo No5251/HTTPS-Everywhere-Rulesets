@@ -1,0 +1,7 @@
+<ruleset name="VDK Baugenossenschaft">
+  <target host="*.vdk-baugenossenschaft.de" />
+  <target host="vdk-baugenossenschaft.de" />
+
+  <rule from="^http://vdk-baugenossenschaft\.de/" to="https://www.vdk-baugenossenschaft.de/"/>
+  <rule from="^http://([^/:@\.]+)\.vdk-baugenossenschaft\.de/" to="https://$1.vdk-baugenossenschaft.de/"/>
+</ruleset>
