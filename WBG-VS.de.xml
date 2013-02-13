@@ -1,0 +1,7 @@
+<ruleset name="Wohnungsbaugesellschaft Villingen-Schwenningen mbH">
+  <target host="*.wbg-vs.de" />
+  <target host="wbg-vs.de" />
+
+  <rule from="^http://wbg-vs\.de/" to="https://www.wbg-vs.de/"/>
+  <rule from="^http://([^/:@\.]+)\.wbg-vs\.de/" to="https://$1.wbg-vs.de/"/>
+</ruleset>
