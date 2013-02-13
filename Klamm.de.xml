@@ -1,0 +1,9 @@
+<ruleset name="Klamm.de">
+  <target host="klamm.de" />
+  <target host="www.klamm.de" />
+  <target host="forum.klamm.de" />
+
+  <rule from="^http://klamm\.de/" to="https://www.klamm.de/"/>
+  <rule from="^http://www\.klamm\.de/" to="https://www.klamm.de/"/>
+  <rule from="^http://forum\.klamm\.de/" to="https://www.klamm.de/forum"/>
+</ruleset>
