@@ -1,0 +1,7 @@
+<ruleset name="Wohnungsgenossenschaft Karl Marx Potsdam eG">
+  <target host="*.wgkarlmarx.de" />
+  <target host="wgkarlmarx.de" />
+
+  <rule from="^http://wgkarlmarx\.de/" to="https://www.wgkarlmarx.de/"/>
+  <rule from="^http://([^/:@\.]+)\.wgkarlmarx\.de/" to="https://$1.wgkarlmarx.de/"/>
+</ruleset>
