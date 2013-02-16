@@ -1,0 +1,7 @@
+<ruleset name="La Quadrature du Net">
+  <target host="*.laquadrature.net" />
+  <target host="laquadrature.net" />
+
+  <rule from="^http://laquadrature\.net/" to="https://www.laquadrature.net/"/>
+  <rule from="^http://([^/:@\.]+)\.laquadrature\.net/" to="https://$1.laquadrature.net/"/>
+</ruleset>
