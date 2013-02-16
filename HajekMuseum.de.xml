@@ -1,4 +1,4 @@
-<ruleset name="Hajek Museum" default_off="expired certificate">
+<ruleset name="Hajek Museum" default_off="self-signed certificate">
   <target host="*.hajekmuseum.de" />
   <target host="hajekmuseum.de" />
 
