@@ -1,0 +1,9 @@
+<ruleset name="Verkehrs- und Tarifverbund Stuttgart">
+  <target host="*.vvs.de" />
+  <target host="vvs.de" />
+
+  <exclusion pattern="^http://www2\.vvs\.de/"/>
+
+  <rule from="^http://vvs\.de/" to="https://www.vvs.de/"/>
+  <rule from="^http://([^/:@\.]+)\.vvs\.de/" to="https://$1.vvs.de/"/>
+</ruleset>
