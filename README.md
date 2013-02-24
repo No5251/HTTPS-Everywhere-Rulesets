@@ -1,6 +1,6 @@
 # HTTPS Everywhere Rulesets
 
-Some rulesets for the browser plugin ["HTTPS Everywhere"](https://www.eff.org/https-everywhere).
+Some rulesets for the browser plugin ["HTTPS Everywhere"](https://www.eff.org/https-everywhere-node).
 
 ## Installation
 
