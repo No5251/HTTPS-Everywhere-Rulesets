@@ -1,0 +1,13 @@
+<ruleset name="Hochschule der Medien">
+  <target host="www.hdm-stuttgart.de" />
+  <target host="asta.hdm-stuttgart.de" />
+  <target host="usta.hdm-stuttgart.de" />
+  <target host="blog.hdm-stuttgart.de" />
+  <target host="hdm-stuttgart.de" />
+
+  <rule from="^http://www\.hdm-stuttgart\.de/" to="https://www.hdm-stuttgart.de/"/>
+  <rule from="^http://asta\.hdm-stuttgart\.de/" to="https://asta.hdm-stuttgart.de/"/>
+  <rule from="^http://usta\.hdm-stuttgart\.de/" to="https://usta.hdm-stuttgart.de/"/>
+  <rule from="^http://blog\.hdm-stuttgart\.de/" to="https://blog.hdm-stuttgart.de/"/>
+  <rule from="^http://hdm-stuttgart\.de/" to="https://www.hdm-stuttgart.de/"/>
+</ruleset>
