@@ -1,0 +1,7 @@
+<ruleset name="Stadt Ludwigsburg">
+  <target host="www.ludwigsburg.de" />
+  <target host="ludwigsburg.de" />
+
+  <rule from="^http://www\.ludwigsburg\.de/" to="https://www.ludwigsburg.de/"/>
+  <rule from="^http://ludwigsburg\.de/" to="https://www.ludwigsburg.de/"/>
+</ruleset>

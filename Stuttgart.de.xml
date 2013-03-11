@@ -1,0 +1,7 @@
+<ruleset name="Stadt Stuttgart">
+  <target host="www.stuttgart.de" />
+  <target host="stuttgart.de" />
+
+  <rule from="^http://www\.stuttgart\.de/" to="https://www.stuttgart.de/"/>
+  <rule from="^http://stuttgart\.de/" to="https://www.stuttgart.de/"/>
+</ruleset>

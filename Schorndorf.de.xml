@@ -1,0 +1,7 @@
+<ruleset name="Stadt Schorndorf" default_off="Invalid Certificate">
+  <target host="www.schorndorf.de" />
+  <target host="schorndorf.de" />
+
+  <rule from="^http://www\.schorndorf\.de/" to="https://www.schorndorf.de/"/>
+  <rule from="^http://schorndorf\.de/" to="https://www.schorndorf.de/"/>
+</ruleset>

@@ -1,0 +1,7 @@
+<ruleset name="Stadt Backnang" default_off="Invalid Certificate">
+  <target host="www.backnang.de" />
+  <target host="backnang.de" />
+
+  <rule from="^http://www\.backnang\.de/" to="https://www.backnang.de/"/>
+  <rule from="^http://backnang\.de/" to="https://www.backnang.de/"/>
+</ruleset>
