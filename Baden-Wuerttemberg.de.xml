@@ -1,0 +1,7 @@
+<ruleset name="Land Baden Wuerttemberg">
+  <target host="www.baden-wuerttemberg.de" />
+  <target host="baden-wuerttemberg.de" />
+
+  <rule from="^http://www\.baden-wuerttemberg\.de/" to="https://www.baden-wuerttemberg.de/"/>
+  <rule from="^http://baden-wuerttemberg\.de/" to="https://www.baden-wuerttemberg.de/"/>
+</ruleset>
