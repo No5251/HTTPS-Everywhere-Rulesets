@@ -1,7 +1,11 @@
 <ruleset name="Land Baden Wuerttemberg">
   <target host="www.baden-wuerttemberg.de" />
   <target host="baden-wuerttemberg.de" />
+  <target host="www.mwk.baden-wuerttemberg.de" />
+  <target host="mwk.baden-wuerttemberg.de" />
 
   <rule from="^http://www\.baden-wuerttemberg\.de/" to="https://www.baden-wuerttemberg.de/"/>
   <rule from="^http://baden-wuerttemberg\.de/" to="https://www.baden-wuerttemberg.de/"/>
+  <rule from="^http://www\.mwk\.baden-wuerttemberg\.de/" to="https://www.mwk.baden-wuerttemberg.de/"/>
+  <rule from="^http://mwk\.baden-wuerttemberg\.de/" to="https://www.mwk.baden-wuerttemberg.de/"/>
 </ruleset>
