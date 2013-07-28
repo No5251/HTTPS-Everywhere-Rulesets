@@ -1,0 +1,9 @@
+<ruleset name="Marco Ziesing" default_off="cacert">
+  <target host="marco-ziesing.de"/>
+  <target host="marcoziesing.de"/>
+  <target host="www.marco-ziesing.de"/>
+  <target host="www.marcoziesing.de"/>
+
+  <rule from="^http://(www\.)?marco(-)?ziesing\.de/" to="https://marco-ziesing.de/"/>
+</ruleset>
+
