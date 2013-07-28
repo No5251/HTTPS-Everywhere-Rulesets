@@ -1,0 +1,7 @@
+<ruleset name="SSBC Brand Consulting" default_off="cacert">
+  <target host="ssbc.de"/>
+  <target host="www.ssbc.de"/>
+
+  <rule from="^http://(www\.)?ssbc\.de/" to="https://www.ssbc.de/"/>
+</ruleset>
+
