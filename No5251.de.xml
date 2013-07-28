@@ -1,0 +1,7 @@
+<ruleset name="#5251" default_off="cacert">
+  <target host="no5251.de"/>
+  <target host="www.no5251"/>
+
+  <rule from="^http://(www\.)?no5251\.de/" to="https://no5251.de/"/>
+</ruleset>
+
