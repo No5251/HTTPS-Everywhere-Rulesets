@@ -1,0 +1,7 @@
+<ruleset name="Versicherungsbüro Barbara Beck" default_off="cacert">
+  <target host="vb-barbara-beck.de"/>
+  <target host="www.vb-barbara-beck.de"/>
+
+  <rule from="^http://(www\.)?vb-barbara-beck\.de/" to="https://vb-barbara-beck.de/"/>
+</ruleset>
+
