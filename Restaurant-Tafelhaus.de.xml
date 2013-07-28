@@ -1,0 +1,7 @@
+<ruleset name="Schürers Tafelhaus" default_off="cacert">
+  <target host="restaurant-tafelhaus.de"/>
+  <target host="www.restaurant-tafelhaus.de"/>
+
+  <rule from="^http://(www\.)?restaurant-tafelhaus\.de/" to="https://www.restaurant-tafelhaus.de/"/>
+</ruleset>
+
