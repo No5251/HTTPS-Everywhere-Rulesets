@@ -1,0 +1,7 @@
+<ruleset name="Schürers Sinnreich" default_off="cacert">
+  <target host="sinnreich.tv"/>
+  <target host="www.sinnreich.tv"/>
+
+  <rule from="^http://(www\.)?sinnreich\.tv/" to="https://www.sinnreich.tv/"/>
+</ruleset>
+
