@@ -1,0 +1,21 @@
+<ruleset name="Land Baden Wuerttemberg (mismatches)" default_off="expired, mismatch">
+
+  <!-- Cert: *.service-bw.de -->
+  <target host="www.rp.baden-wuerttemberg.de" />
+  <target host="rp.baden-wuerttemberg.de" />
+
+  <!-- Cert: www.uvm.baden-wuerttemberg.de -->
+  <target host="www.um.baden-wuerttemberg.de" />
+  <target host="um.baden-wuerttemberg.de" />
+
+  <!-- Cert: no domain, expired - trial cert? -->
+  <target host="www.hvz.baden-wuerttemberg.de" />
+  <target host="hvz.baden-wuerttemberg.de" />
+
+  <rule from="^http://www\.rp\.baden-wuerttemberg\.de/" to="https://www.rp.baden-wuerttemberg.de/"/>
+  <rule from="^http://rp\.baden-wuerttemberg\.de/" to="https://www.rp.baden-wuerttemberg.de/"/>
+  <rule from="^http://www\.um\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
+  <rule from="^http://um\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
+  <rule from="^http://www\.hvz\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
+  <rule from="^http://hvz\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
+</ruleset>
