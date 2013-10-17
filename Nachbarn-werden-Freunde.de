@@ -1,0 +1,7 @@
+<ruleset name="Nachbarn werden Freunde">
+  <target host="*.nachbarn-werden-freunde.de" />
+  <target host="nachbarn-werden-freunde.de" />
+
+  <rule from="^http://nachbarn-werden-freunde\.de/" to="https://www.nachbarn-werden-freunde.de/"/>
+  <rule from="^http://([^/:@\.]+)\.nachbarn-werden-freunde\.de/" to="https://$1.nachbarn-werden-freunde.de/"/>
+</ruleset>
