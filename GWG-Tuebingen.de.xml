@@ -1,0 +1,7 @@
+<ruleset name="GWG Tübingen">
+  <target host="*.gwg-tuebingen.de" />
+  <target host="gwg-tuebingen.de" />
+
+  <rule from="^http://gwg-tuebingen\.de/" to="https://www.gwg-tuebingen.de/"/>
+  <rule from="^http://([^/:@\.]+)\.gwg-tuebingen\.de/" to="https://www.gwg-tuebingen.de/"/>
+</ruleset>
