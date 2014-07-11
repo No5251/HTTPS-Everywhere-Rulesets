@@ -1,7 +1,0 @@
-<ruleset name="Neckartower Villingen-Schwenningen">
-  <target host="*.neckartower-vs.de" />
-  <target host="neckartower-vs.de" />
-
-  <rule from="^http://neckartower-vs\.de/" to="https://www.neckartower-vs.de/"/>
-  <rule from="^http://([^/:@\.]+)\.neckartower-vs\.de/" to="https://$1.neckartower-vs.de/"/>
-</ruleset>
