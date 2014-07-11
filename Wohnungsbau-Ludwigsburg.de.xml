@@ -3,5 +3,5 @@
   <target host="wohnungsbau-ludwigsburg.de" />
 
   <rule from="^wohnungsbau-ludwigsburg\.de/" to="https://www.wohnungsbau-ludwigsburg.de/"/>
-  <rule from="^http://([^/:@\.]+)\.wohnungsbau-ludwigsburg\.de/" to="https://$1.wohnungsbau-ludwigsburg.de/"/>
+  <rule from="^http://([^/:@\.]+)\.wohnungsbau-ludwigsburg\.de/" to="https://www.wohnungsbau-ludwigsburg.de/"/>
 </ruleset>
