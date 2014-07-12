@@ -1,4 +1,4 @@
-<ruleset name="Stadt Schorndorf" default_off="Invalid Certificate">
+<ruleset name="Stadt Schorndorf">
   <target host="www.schorndorf.de" />
   <target host="schorndorf.de" />
 
