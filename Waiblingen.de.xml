@@ -1,0 +1,7 @@
+<ruleset name="Stadt Waiblingen" default_off="mismatch">
+  <target host="www.waiblingen.de" />
+  <target host="waiblingen.de" />
+
+  <rule from="^http://www\.waiblingen\.de/" to="https://www.waiblingen.de/"/>
+  <rule from="^http://waiblingen\.de/" to="https://www.waiblingen.de/"/>
+</ruleset>
