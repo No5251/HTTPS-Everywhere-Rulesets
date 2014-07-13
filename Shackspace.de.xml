@@ -1,0 +1,8 @@
+<ruleset name="shackspace" default_off="cacert">
+  <target host="shackspace.de"/>
+  <target host="lists.shackspace.de"/>
+
+  <rule from="^http://shackspace\.de/" to="https://shackspace.de/"/>
+  <rule from="^http://lists\.shackspace\.de/" to="https://lists.shackspace.de/"/>
+</ruleset>
+
