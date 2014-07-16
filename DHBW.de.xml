@@ -1,0 +1,7 @@
+<ruleset name="Dualen Hochschule Baden-Württemberg">
+  <target host="*.dhbw.de" />
+  <target host="dhbw.de" />
+
+  <rule from="^http://dhbw\.de/" to="https://www.dhbw.de/"/>
+  <rule from="^http://([^/:@\.]+)\.dhbw\.de/" to="https://www.dhbw.de/"/>
+</ruleset>
