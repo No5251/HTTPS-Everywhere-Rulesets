@@ -8,10 +8,6 @@
   <target host="www.um.baden-wuerttemberg.de" />
   <target host="um.baden-wuerttemberg.de" />
 
-  <!-- Cert: no domain, expired - trial cert? -->
-  <target host="www.hvz.baden-wuerttemberg.de" />
-  <target host="hvz.baden-wuerttemberg.de" />
-
   <!-- Cert: www.fit-for-charity.de -->
   <target host="www.vaw-baden-wuerttemberg.de" />
   <target host="vaw-baden-wuerttemberg.de" />
