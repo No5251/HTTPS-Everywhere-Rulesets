@@ -1,0 +1,7 @@
+<ruleset name="Dualen Hochschule Baden-Württemberg - Standort Heilbronn">
+  <target host="*.heilbronn.dhbw.de" />
+  <target host="heinbronn.dhbw.de" />
+
+  <rule from="^http://heilbronn.dhbw\.de/" to="https://www.heilbronn.dhbw.de/"/>
+  <rule from="^http://([^/:@\.]+)\.heilbronn.dhbw\.de/" to="https://www.heilbronn.dhbw.de/"/>
+</ruleset>

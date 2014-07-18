@@ -1,0 +1,7 @@
+<ruleset name="Dualen Hochschule Baden-Württemberg - Standort Karlsruhe">
+  <target host="*.dhbw-karlsruhe.de" />
+  <target host="dhbw-karlsruhe.de" />
+
+  <rule from="^http://dhbw-karlsruhe\.de/" to="https://www.dhbw-karlsruhe.de/"/>
+  <rule from="^http://([^/:@\.]+)\.dhbw-karlsruhe\.de/" to="https://www.dhbw-karlsruhe.de/"/>
+</ruleset>
