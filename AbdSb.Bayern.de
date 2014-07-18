@@ -1,0 +1,7 @@
+<ruleset name="Autobahndirektion Südbayern" default_off="mismatch">
+  <target host="www.abdsb.bayern.de" />
+  <target host="*.abdsb.bayern.de" />
+
+  <rule from="^http://www\.abdsb\.bayern\.de/" to="https://www.abdsb.bayern.de/"/>
+  <rule from="^http://([^/:@\.]+)\.abdsb\.bayern\.de/" to="https://www.abdsb.bayern.de/"/>
+</ruleset>
