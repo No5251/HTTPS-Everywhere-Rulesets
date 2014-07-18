@@ -1,4 +1,4 @@
-<ruleset name="Dualen Hochschule Baden-Württemberg">
+<ruleset name="Dualen Hochschule Baden-Württemberg" default_off="mismatch">
   <target host="*.dhbw.de" />
   <target host="dhbw.de" />
 
