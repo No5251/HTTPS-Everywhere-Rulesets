@@ -1,0 +1,11 @@
+<ruleset name="Bayerisches Staatsministerium der Justiz">
+  <target host="justiz.bayern.de" />
+  <target host="*.justiz.bayern.de" />
+  <target host="justiz-bayern.de" />
+  <target host="*.justiz-bayern.de" />
+
+  <rule from="^http://justiz\.bayern\.de/" to="https://www.justiz.bayern.de/"/>
+  <rule from="^http://([^/:@\.]+)\.justiz\.bayern\.de/" to="https://www.justiz.bayern.de/"/>
+  <rule from="^http://justiz-bayern\.de/" to="https://www.justiz.bayern.de/"/>
+  <rule from="^http://([^/:@\.]+)\.justiz-bayern\.de/" to="https://www.justiz.bayern.de/"/>
+</ruleset>
