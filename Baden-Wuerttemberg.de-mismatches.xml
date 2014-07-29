@@ -18,9 +18,6 @@
   <rule from="^http://www\.um\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
   <rule from="^http://um\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
 
-  <rule from="^http://www\.hvz\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
-  <rule from="^http://hvz\.baden-wuerttemberg\.de/" to="https://www.um.baden-wuerttemberg.de/"/>
-
   <rule from="^http://www\.vaw-baden-wuerttemberg\.de/" to="https://www.vaw-baden-wuerttemberg.de/"/>
   <rule from="^http://vaw-baden-wuerttemberg.de/" to="https://www.vaw-baden-wuerttemberg.de/"/>
 </ruleset>
