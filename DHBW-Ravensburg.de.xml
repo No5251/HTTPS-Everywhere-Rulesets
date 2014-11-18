@@ -1,0 +1,7 @@
+<ruleset name="Dualen Hochschule Baden-Württemberg - Standort Ravensburg">
+  <target host="*.dhbw-ravensburg.de" />
+  <target host="dhbw-ravensburg.de" />
+
+  <rule from="^http://dhbw-ravensburg\.de/" to="https://www.dhbw-ravensburg.de/"/>
+  <rule from="^http://([^/:@\.]+)\.dhbw-ravensburg\.de/" to="https://www.dhbw-ravensburg.de/"/>
+</ruleset>
