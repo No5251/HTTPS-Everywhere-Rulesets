@@ -1,7 +1,7 @@
 <ruleset name="BG Neues Heim">
-  <target host="*.bgneuesheim.de" />
   <target host="bgneuesheim.de" />
+  <target host="*.bgneuesheim.de" />
 
-  <rule from="^http://bgneuesheim\.de/" to="https://www.bgneuesheim.de/"/>
-  <rule from="^http://([^/:@\.]+)\.bgneuesheim\.de/" to="https://$1.bgneuesheim.de/"/>
+  <rule from="^http://bgneuesheim\.de/" to="https://bgneuesheim.de/"/>
+  <rule from="^http://([^/:@\.]+)\.bgneuesheim\.de/" to="https://bgneuesheim.de/"/>
 </ruleset>
