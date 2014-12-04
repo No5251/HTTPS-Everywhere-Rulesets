@@ -1,0 +1,7 @@
+<ruleset name="Bauvereinigung Vaihingen">
+  <target host="*.bauvereinigung-vaihingen.de" />
+  <target host="bauvereinigung-vaihingen.de" />
+
+  <rule from="^http://bauvereinigung-vaihingen\.de/" to="https://www.bauvereinigung-vaihingen.de/"/>
+  <rule from="^http://([^/:@\.]+)\.bauvereinigung-vaihingen\.de/" to="https://$1.bauvereinigung-vaihingen.de/"/>
+</ruleset>
