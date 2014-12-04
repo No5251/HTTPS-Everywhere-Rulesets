@@ -1,0 +1,9 @@
+<ruleset name="Immowelt AG" default_off="mismatch">
+  <target host="*.immowelt.de" />
+  <target host="immowelt.de" />
+
+  <exclusion pattern="^http://meine\.immowelt\.de/"/>
+
+  <rule from="^http://immowelt\.de/" to="https://www.immowelt.de/"/>
+  <rule from="^http://([^/:@\.]+)\.immowelt\.de/" to="https://$1.immowelt.de/"/>
+</ruleset>
