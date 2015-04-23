@@ -1,7 +1,0 @@
-<ruleset name="GWF Stuttgart">
-  <target host="*.gwf-stuttgart.de" />
-  <target host="gwf-stuttgart.de" />
-
-  <rule from="^http://gwf-stuttgart\.de/" to="https://www.gwf-stuttgart.de/"/>
-  <rule from="^http://([^/:@\.]+)\.gwf-stuttgart\.de/" to="https://$1.gwf-stuttgart.de/"/>
-</ruleset>
