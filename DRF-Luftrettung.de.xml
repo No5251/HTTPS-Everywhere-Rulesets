@@ -1,7 +1,0 @@
-<ruleset name="DRF Luftrettung">
-  <target host="*.drf-luftrettung.de" />
-  <target host="drf-luftrettung.de" />
-
-  <rule from="^http://drf-luftrettung\.de/" to="https://www.drf-lutrettung.de/"/>
-  <rule from="^http://([^/:@\.]+)\.drf-luftrettung\.de/" to="https://$1.drf-lutrettung.de/"/>
-</ruleset>
