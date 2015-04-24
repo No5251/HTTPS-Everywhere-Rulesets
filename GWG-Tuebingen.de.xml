@@ -1,4 +1,4 @@
-<ruleset name="GWG Tübingen">
+<ruleset name="GWG T&#252;bingen">
   <target host="*.gwg-tuebingen.de" />
   <target host="gwg-tuebingen.de" />
 

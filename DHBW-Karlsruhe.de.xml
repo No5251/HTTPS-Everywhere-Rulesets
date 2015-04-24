@@ -1,4 +1,4 @@
-<ruleset name="Dualen Hochschule Baden-Württemberg - Standort Karlsruhe">
+<ruleset name="Dualen Hochschule Baden-W&#252;rttemberg - Standort Karlsruhe">
   <target host="*.dhbw-karlsruhe.de" />
   <target host="dhbw-karlsruhe.de" />
 

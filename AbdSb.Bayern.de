@@ -1,4 +1,4 @@
-<ruleset name="Autobahndirektion Südbayern" default_off="mismatch">
+<ruleset name="Autobahndirektion S&#252;dbayern" default_off="mismatch">
   <target host="www.abdsb.bayern.de" />
   <target host="*.abdsb.bayern.de" />
 

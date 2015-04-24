@@ -1,4 +1,4 @@
-<ruleset name="Schürers Sinnreich" default_off="cacert">
+<ruleset name="Sch&#252;rers Sinnreich" default_off="cacert">
   <target host="sinnreich.tv"/>
   <target host="www.sinnreich.tv"/>
 
