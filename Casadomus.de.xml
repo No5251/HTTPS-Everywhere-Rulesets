@@ -1,0 +1,9 @@
+<ruleset name="casadomus AG">
+  <target host="*.casadomus.de" />
+  <target host="casadomus.de" />
+
+  <exclusion pattern="^http://(preview|server)(\d{1,2})?\.casadomus\.de/"/>
+
+  <rule from="^http://casadomus\.de/" to="https://www.casadomus.de/"/>
+  <rule from="^http://([^/:@\.]+)\.casadomus\.de/" to="https://$1.casadomus.de/"/>
+</ruleset>
