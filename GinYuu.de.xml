@@ -1,0 +1,7 @@
+<ruleset name="GinYuu">
+  <target host="www.ginyuu.de" />
+  <target host="ginyuu.de" />
+
+  <rule from="^http://ginyuu\.de/" to="https://www.ginyuu.de/"/>
+  <rule from="^http://www.ginyuu\.de/" to="https://www.ginyuu.de/"/>
+</ruleset>
