@@ -1,4 +1,4 @@
-<ruleset name="Marco Ziesing" default_off="cacert">
+<ruleset name="Marco Ziesing">
   <target host="marco-ziesing.de"/>
   <target host="marcoziesing.de"/>
   <target host="www.marco-ziesing.de"/>

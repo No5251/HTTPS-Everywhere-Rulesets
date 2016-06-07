@@ -1,4 +1,4 @@
-<ruleset name="Versicherungsb&#252;ro Barbara Beck" default_off="cacert">
+<ruleset name="Versicherungsb&#252;ro Barbara Beck">
   <target host="vb-barbara-beck.de"/>
   <target host="www.vb-barbara-beck.de"/>
 
