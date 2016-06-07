@@ -1,4 +1,4 @@
-<ruleset name="CCC Stuttgart" default_off="cacert">
+<ruleset name="CCC Stuttgart">
   <target host="*.cccs.de" />
   <target host="cccs.de" />
 
