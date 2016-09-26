@@ -1,0 +1,13 @@
+<ruleset name="heise online">
+  <target host="heise.de"/>
+  <target host="www.heise.de"/>
+  <target host="ct.de"/>
+  <target host="www.ct.de"/>
+  <target host="ix.de"/>
+  <target host="www.ix.de"/>
+
+  <rule from="^http://(www\.)?heise\.de/" to="https://www.heise.de/"/>
+  <rule from="^http://(www\.)?ct\.de/" to="https://www.heise.de/ct/"/>
+  <rule from="^http://(www\.)?ix\.de/" to="https://www.heise.de/ix/"/>
+</ruleset>
+
