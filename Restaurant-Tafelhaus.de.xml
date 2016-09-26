@@ -1,4 +1,4 @@
-<ruleset name="Sch&#252;rers Tafelhaus" default_off="cacert">
+<ruleset name="Sch&#252;rers Tafelhaus">
   <target host="restaurant-tafelhaus.de"/>
   <target host="www.restaurant-tafelhaus.de"/>
 

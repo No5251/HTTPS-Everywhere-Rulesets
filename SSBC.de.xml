@@ -1,4 +1,4 @@
-<ruleset name="SSBC Brand Consulting" default_off="cacert">
+<ruleset name="SSBC Brand Consulting">
   <target host="ssbc.de"/>
   <target host="www.ssbc.de"/>
 

@@ -1,4 +1,4 @@
-<ruleset name="#5251" default_off="cacert">
+<ruleset name="#5251">
   <target host="no5251.de"/>
   <target host="www.no5251"/>
 

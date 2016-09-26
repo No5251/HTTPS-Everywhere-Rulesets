@@ -1,0 +1,6 @@
+<ruleset name="Yoloma">
+  <target host="*.yoloma.de" />
+  <target host="yoloma.de" />
+
+  <rule from="^http://([^/:@\.]+)\.yoloma\.de/" to="https://mein.yoloma.de/"/>
+</ruleset>
